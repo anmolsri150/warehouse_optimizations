@@ -1,0 +1,93 @@
+{
+  "num_products": 1000,
+  "num_orders": 10000,
+  "num_days": 90,
+  "num_aisles": 10,
+  "shelves_per_aisle": 4,
+  "bins_per_shelf": 6,
+  "product_category_dist": {
+    "normal": 0.5,
+    "fragile": 0.15,
+    "cold_storage": 0.2,
+    "hazardous": 0.1,
+    "high_value": 0.05
+  },
+  "price_ranges": {
+    "normal": [
+      10,
+      100
+    ],
+    "fragile": [
+      50,
+      500
+    ],
+    "cold_storage": [
+      20,
+      200
+    ],
+    "hazardous": [
+      30,
+      300
+    ],
+    "high_value": [
+      500,
+      5000
+    ]
+  },
+  "dimension_ranges": {
+    "normal": {
+      "length": [
+        0.2,
+        0.5
+      ],
+      "width": [
+        0.2,
+        0.4
+      ],
+      "height": [
+        0.1,
+        0.3
+      ],
+      "weight": [
+        0.5,
+        10
+      ]
+    },
+    "fragile": {
+      "length": [
+        0.1,
+        0.4
+      ],
+      "width": [
+        0.1,
+        0.3
+      ],
+      "height": [
+        0.1,
+        0.2
+      ],
+      "weight": [
+        0.1,
+        5
+      ]
+    }
+  },
+  "orders_per_day_range": [
+    100,
+    200
+  ],
+  "items_per_order_range": [
+    1,
+    5
+  ],
+  "peak_hours": [
+    10,
+    11,
+    14,
+    15,
+    16,
+    19,
+    20
+  ],
+  "weekend_factor": 0.7
+}
